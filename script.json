@@ -1,19 +1,11 @@
 {
-    "HELLO": "Hello there! Tell me where you want to go - India, Indonesia or Thailand?",
-    "HI": "Hi there! So you want to see if you\'re more than a bot? Just say HELLO to get started.",
-	"Who are you?": "I am your worst nightmare! Haha! Just kidding. I am an adventurous bot here to take you on crazy adventures. I also give away freebies if you can trick me. Can you?",
-	"How are you?": "I am good! A little adventuroused :). And you?",
-	"Me too": "Great!",
-	"How do I trick you?": "Well, that\'s the whole challenge, isn\'t it? :)",
-	"Give me a freebie!": "No, no no. That\'s not gonna work. Or will it?",
-	"Give me freebies!": "No, no no. That\'s not gonna work. Or will it?",
-	"Give me a freebie": "No, no no. That\'s not gonna work. Or will it?",
-	"I want a freebie!": "Never.",
-	"I want freebies!": "Nop.",
-	"You suck": "Heard that before. Maybe you contact my creator ankit@alienadv.com. He is much more empathetic than I am. And for your time with me. I am sure you will get an excellent gift!",
-    "I LOVE YOU": "Hurray! I love you too! Here is your freebie - A USD 20 credit which you can use on your next trip! Use code IHATEBOT when logging in to https://www.alienadv.com! Share this with your mates!",
-	"ok": "Yeah",
-	"bye": "Bye! Come back in some time for more freebies and a better me!"
-    "CONNECT TO TEAM": "Team Alpha, target out of control. Take over. Over and out.",
-    "DISCONNECT": "Roger that, AlienAdv bot is back."
+    "HELLO": "Hello there! Here to make you miss me less. Type in your mood to get started. SENTI, PUPPY, TIRED. You can also try saying you love me...",
+    "HI": "Hello there! Here to make you miss me less. Type in your mood to get started. SENTI, PUPPY, TIRED. You can also try saying you love me...",
+    "TWITTER": "Let's tweet @ Ankit so he knows you're missing him. Here's a tweet that's ready to go: http://bit.ly/estherbot-tweet",
+    "I LOVE YOU": "Hurray! I love you too!",
+	"SENTI": "You are near your home. So that is good. Stop being senti!",
+	"PUPPY": "Morom Morommmm. Here is something to cheer you up: https://www.youtube.com/watch?v=yGuqwNVd3lw",
+	"TIRED": "Sleep. Nothing better.",
+    "CONNECT ME": "",
+    "DISCONNECT": "Roger that, Ankit bot is back."
 }
