@@ -13,7 +13,7 @@ module.exports = new Script({
 
     start: {
         receive: (bot) => {
-            return bot.say('Booya! Just say HELLO to get started.')
+            return bot.say('So you want to talk to Ankit? Just say HELLO to get started.')
                 .then(() => 'speak');
         }
     },
@@ -25,7 +25,7 @@ module.exports = new Script({
 
             function updateSilent() {
                 switch (upperText) {
-                    case "CONNECT TO TEAM":
+                    case "CONNECT ME":
                         return bot.setProp("silent", true);
                     case "DISCONNECT":
                         return bot.setProp("silent", false);
@@ -44,7 +44,7 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`Trying to be adventurous eh? I'm still evolving. Try tricking me to get marvellous freebies or tell me where you want to go - India, Indonesia or Thailand? You can always connect to my humans by typing CONNECT TO TEAM`).then(() => 'speak');
+                    return bot.say(`Trying to be adventurous eh? I'm a mere bot. Stick to the script! What's your mood like?`).then(() => 'speak');
                 }
 
                 var response = scriptRules[upperText];
