@@ -1,11 +1,15 @@
 {
-    "HELLO": "Hello there! Here to make you miss me less. Type in your mood to get started. SENTI, PUPPY, TIRED. You can also try saying you love me...",
-    "HI": "Hello there! Here to make you miss me less. Type in your mood to get started. SENTI, PUPPY, TIRED. You can also try saying you love me...",
-    "TWITTER": "Let's tweet @ Ankit so he knows you're missing him. Here's a tweet that's ready to go: http://bit.ly/estherbot-tweet",
-    "I LOVE YOU": "Hurray! I love you too!",
-	"SENTI": "You are near your home. So that is good. Stop being senti!",
-	"PUPPY": "Morom Morommmm. Here is something to cheer you up: https://www.youtube.com/watch?v=yGuqwNVd3lw",
-	"TIRED": "Sleep. Nothing better.",
+    "HELLO": "Sweet! Let\'s get started! Type in your mood to get started. SENTI, PUPPY, TIRED. You can also try saying you love me...",
+	"HI": "Sweet! Let\'s get started! Type in your mood to get started. SENTI, PUPPY, TIRED. You can also try saying you love me...",
+	"WHO ARE YOU?": "I am your worst nightmare! Haha! Just kidding. I am an adventurous bot here to take you on crazy adventures. I also give away freebies if you can trick me. Can you?",
+	"HOW DO I TRICK YOU?": "Well, that\'s the whole challenge, isn\'t it? :)",
+	"GIVE ME A FREEBIE!": "No, no no. That\'s not gonna work. Or will it?",
+	"GIVE ME FREEBIES!": "No, no no. That\'s not gonna work. Or will it?",
+	"GIVE ME A FREEBIE": "No, no no. That\'s not gonna work. Or will it?",
+	"I WANT A FREEBIE!": "Never.",
+	"I WANT FREEBIES!": "Nop.",
+	"YOU SUCK": "Heard that before. Maybe you contact my creator ankit@alienadv.com. He is much more empathetic than I am. And for your time with me. I am sure you will get an excellent gift!",
+    "I LOVE YOU": "Hurray! I love you too! Here is your freebie - A USD 20 credit which you can use on your next trip! Use code IHATEBOT when logging in to https://www.alienadv.com! Well done.",
     "CONNECT ME": "",
     "DISCONNECT": "Roger that, Ankit bot is back."
 }
