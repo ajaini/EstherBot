@@ -13,7 +13,7 @@ module.exports = new Script({
 
     start: {
         receive: (bot) => {
-            return bot.say('Beep..Boop.. This is AlienAdv bot V.1.0. Hello!')
+            return bot.say('Beep..Boop.. This is AlienAdv bot V.1.0. Hello! Here is a tip to converse effectively with me. Just type phrases instead of full sentences. Start by saying HELLO')
                 .then(() => 'speak');
         }
     },
@@ -44,7 +44,7 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`Trying to be adventurous eh? Will not work. Try again.`).then(() => 'speak');
+                    return bot.say(`Trying to be adventurous eh? Will not work. Try saying HELLO`).then(() => 'speak');
                 }
 
                 var response = scriptRules[upperText];

@@ -1,14 +1,14 @@
 {
-    "HELLO": "Sweet! Let us get started. I can help you choose your best adventure! Where do you want to go INDIA or INDONESIA. I also give away freebies if you can trick me into it...",
+    "HELLO": "Cool! Let's get started. Try typing locations and activities you'd want to know about. Like Surfing India or Triund Trek or Scuba Diving Bali. \nI also give away FREE CREDITS on out site! Try tricking me into giving away one to you :)",
     "HI": "Sweet! Let us get started. I can help you choose your best adventure! Where do you want to go INDIA or INDONESIA. I also give away freebies if you can trick me into it...",
-	"INDIA": "I'll help you find the best adventure this Indian summers. Check out our extensive coverage there https://www.alienadv.com/activity/search",
-	"INDONESIA": "The land of the Gods! Excellent. I assume you would like to start off in Bali. Check out our extensive coverage there https://www.alienadv.com/activity/search ",
+	"INDIA": "I'll help you find the best adventure this Indian summers. Check out our extensive coverage by searching for India here https://www.alienadv.com/activity/search",
+	"INDONESIA": "The land of the Gods! Excellent. I assume you would like to start off in Bali. Check out our extensive coverage by typing in Bali in he location bar in https://www.alienadv.com/activity/search",
 	"HOW DO I TRICK YOU?": "That is the challenge! Is it not? Now show me some love.",
 	"HOW DO I TRICK YOU": "That is the challenge! Is it not? Now show me some love.",
 	"I WANT MY FREEBIE": "Your freebie! Someones being demanding!",
 	"I WANT MY FREEBIE!": "Your freebie! Someones being demanding!",
-	"I WANT FREEBIES!": "Your freebie! Someones being demanding!",
-	"I WANT FREEBIES": "Your freebie! Someones being demanding!",
+	"I WANT FREEBIES!": "Freebie! Someones being demanding!",
+	"I WANT FREEBIES": "Freebie! Someones being demanding!",
 	"FREEBIE": "Make an effort human!",
 	"I'M BORED": "And you think I'm not? Try getting in touch with my human at ankit@alienadv.com. He's not boring.",
 	"YOU SUCK": "Now, now. Try getting in touch with my human at ankit@alienadv.com. He is usually much more emphetetic than me. Or show me some love.",
@@ -17,5 +17,5 @@
     "TWITTER": "Let's tweet @ AlienAdv so they know you loved me! Here's a tweet that's ready to go: http://bit.ly/1VP418U",
     "I LOVE YOU": "Hurray! I love you too! Here is your freebie. USD 20 credit when you login at alienadv.com! Go for it and keep referring friends to increase your travel fund!",
     "CONNECT ME": "",
-    "DISCONNECT": "Roger that, Ankit bot is back."
+    "DISCONNECT": "Roger that, AlienAdv bot is back."
 }
