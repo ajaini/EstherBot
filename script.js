@@ -13,7 +13,7 @@ module.exports = new Script({
 
     start: {
         receive: (bot) => {
-            return bot.say('Beep..Boop.. This is Alien bot V.1 Tip to converse with me - Type phrases instead of full sentences. Start by saying HELLO')
+            return bot.say('Beep..Boop.. This is Alien bot. Have you taken part in the alien photo contest yet? \n\nTip to converse with me - Type phrases instead of full sentences. Begin by typing BOT')
                 .then(() => 'speak');
         }
     },
