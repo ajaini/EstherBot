@@ -44,7 +44,7 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`Trying to be adventurous eh? Will not work. Stict to the basics. Type HELLO to learn how to effectively converse with me!`).then(() => 'speak');
+                    return bot.say(`Trying to be adventurous eh? Stick to the basics. Try typing locations and activities you'd want to know about - like Bali Hiking or India Surfing`).then(() => 'speak');
                 }
 
                 var response = scriptRules[upperText];
