@@ -13,7 +13,7 @@ module.exports = new Script({
 
     start: {
         receive: (bot) => {
-            return bot.say('Beep..Boop.. This is AlienAdv bot V.1.0. Hello! Here is a tip to converse effectively with me. Just type phrases instead of full sentences. Start by saying HELLO')
+            return bot.say('Beep..Boop.. This is Alien bot V.1 Tip to converse with me - Type phrases instead of full sentences. Start by saying HELLO')
                 .then(() => 'speak');
         }
     },
@@ -44,7 +44,7 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`Trying to be adventurous eh? Will not work. Try saying HELLO`).then(() => 'speak');
+                    return bot.say(`Trying to be adventurous eh? Will not work. Stict to the basics. Type HELLO to learn how to effectively converse with me!`).then(() => 'speak');
                 }
 
                 var response = scriptRules[upperText];
