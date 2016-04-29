@@ -19,7 +19,7 @@ module.exports = new Script({
 
     start: {
         receive: (bot) => {
-            return bot.say('Get started by saying BOT.')
+            return bot.say('Beep..Boop.. This is Alien bot. Have you taken part in the alien photo contest yet? \n\nTip to converse with me - Type phrases instead of full sentences. Begin by typing TRICK')
                 .then(() => 'speak');
         }
     },
@@ -50,7 +50,7 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`So, I'm good at structured conversations but stickers, emoji and sentences still confuse me. Say 'more' to chat about something else.`).then(() => 'speak');
+                    return bot.say(`Trying to be adventurous eh? I'm still evolving and thus only good at structured conversations. Sentences or emojis short circuit my systems! Say 'hint' for a hint on how to trick me.`).then(() => 'speak');
                 }
 
                 var response = scriptRules[upperText];
