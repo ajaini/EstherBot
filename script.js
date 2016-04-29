@@ -19,7 +19,7 @@ module.exports = new Script({
 
     start: {
         receive: (bot) => {
-            return bot.say('Beep..Boop.. This is Alien bot. Tip to converse with me - Type phrases instead of full sentences. \n\nBegin by typing ALIEN')
+            return bot.say('Beep..Boop.. This is Alien bot. Tip to converse with me - Type phrases instead of full sentences.\n\n Begin by typing ALIEN')
                 .then(() => 'speak');
         }
     },
@@ -50,10 +50,11 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`Trying to be adventurous eh? I'm still evolving and thus only good at structured conversations. Sentences or emojis are beyong me. Say 'hint' for a hint on how to trick me.`).then(() => 'speak');
+                    return bot.say('Trying to be adventurous eh? I\'m only good at structured conversations. Full Sentences confuse me. Say \'hint\' for a hint on how to trick me. Or maybe I can tell you about \'Bali\'?').then(() => 'speak');
                 }
 
                 var response = scriptRules[upperText];
+				
                 var lines = response.split('\n\n');
 
                 var p = Promise.resolve();
