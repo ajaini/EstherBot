@@ -1,5 +1,6 @@
 {
-    "BOT": "Hi there!\nI’m the personal bot of Esther, a Product Marketer from San Francisco.\n![esther](https://raw.githubusercontent.com/esthercrawford/smooch-bot-example/master/img/esther.jpg)\nWant to know more about bots or learn about Esther? %[I'm here for the bot](postback:here_for_the_bot) %[Learn about Esther](postback:learn_about_esther) %[One random fact!](postback:random_fact)",
+    "BOT": "Hi there!\nI’m the personal bot of Esther, a Product Marketer from San Francisco.\n![esther](https://raw.githubusercontent.com/esthercrawford/smooch-bot-example/master/img/esther.jpg)\nWant to know more about bots or learn about Esther? %[Test](postback:hi_hello) %[I'm here for the bot](postback:here_for_the_bot) %[Learn about Esther](postback:learn_about_esther) %[One random fact!](postback:random_fact)",
+	"HI HELLO": "hey",
     "I'M HERE FOR THE BOT": "Ha, I thought so!\nAre you perhaps thinking about building your own bot? %[I'd like to](postback:ID_LIKE_TO) %[Not yet](postback:NOT_YET)",
     "THE BEGINNING": "Ok, welcome back!\nWant to know more about bots or learn about Esther? %[I'm here for the bot](postback:here_for_the_bot) %[Learn about Esther](postback:learn_about_esther) %[One random fact!](postback:random_fact)",
     "I'M READY TO MOVE ON": "No prob. I can tell you a bunch of stuff about Esther. Let me know what’s interesting to you. %[Childhood](postback:childhood) %[Education](postback:education) %[Career](postback:career)\nWhen you're ready you can always say 'connect' to talk to Esther. %[Connect with Esther](postback:connect_me)",
