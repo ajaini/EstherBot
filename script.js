@@ -19,7 +19,7 @@ module.exports = new Script({
 
     start: {
         receive: (bot) => {
-            return bot.say('Beep..Boop.. This is Alien bot. Tip to converse with me - Type phrases instead of full sentences. \n\nBegin by typing TRICK')
+            return bot.say('Beep..Boop.. This is Alien bot. Tip to converse with me - Type phrases instead of full sentences. \n\nBegin by typing ALIEN')
                 .then(() => 'speak');
         }
     },
@@ -54,7 +54,7 @@ module.exports = new Script({
                 }
 
                 var response = scriptRules[upperText];
-                var lines = response.split('\n');
+                var lines = response.split('\n\n');
 
                 var p = Promise.resolve();
                 _.each(lines, function(line) {
