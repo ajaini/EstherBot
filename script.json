@@ -61,7 +61,7 @@
 	"WORK": "I am working. Are you?",
 	"BORING": "I think you need an adventure!",
 	"BORED": "I think you need an adventure!",
-	"WHERE?": "Anywhere. Just get out of normal routine! Maybe these will inspire you %[Adventures galore!](https://www.alienadv.com/)"
+	"WHERE?": "Anywhere. Just get out of normal routine! Maybe these will inspire you %[Adventures galore!](https://www.alienadv.com/)",
 	"I'M BORED": "And you think I'm not? Try getting in touch with my human at ankit@alienadv.com. He's not as boring, though I won't put my money on it.\n\nOr if you wanna hear a joke.. %[Tell me a joke](postback:tell_me_a_joke)",
 	"IM BORED": "And you think I'm not? Try getting in touch with my human at ankit@alienadv.com. He's not as boring, though I won't put my money on it. \n\nOr if you wanna hear a joke.. %[Tell me a joke](postback:tell_me_a_joke)",
 	"YOU SUCK": "Now, now. Try getting in touch with my human at ankit@alienadv.com. He is usually much more emphetetic than me.",
@@ -210,7 +210,7 @@
 	"WHAT ELSE DO YOU KNOW?": "Umm. Here's a joke for you. [Tell me a joke] (postback:tell_me_a_joke)",
 	"WHAT ELSE CAN YOU DO?": "Umm. Here's a joke for you. [Tell me a joke] (postback:tell_me_a_joke)",
 	"WHAT ELSE CAN YOU DO": "Umm. Here's a joke for you. [Tell me a joke] (postback:tell_me_a_joke)",
-	"ARE YOU MALE OR FEMALE?": "I'm a moustache bearing bot.",
+	"ARE YOU MALE OR FEMALE?": "I'm a moustache bearing bot",
 	"ARE YOU A BOT?": "Are you a human? Would we ever know?",
 	"WHICH DO YOU LIKE BETTER CHOCOLATE OR VANILLA?":	"A mix.",
 	"WHERE ARE YOU": "I belong everywhere!",
