@@ -32,7 +32,7 @@ class BetterSmoochApiBot extends SmoochApiBot {
 }
 
 const name = 'Alien Bot';
-const avatarUrl = 'https://secure.gravatar.com/userimage/96858872/9fdb0c160d53792bb876d6789f696e3a?size=400';
+const avatarUrl = 'https://media.alienadv.com/AlienBot-Alienadv-profile-T8t.jpg';
 const store = new SmoochApiStore({
     jwt
 });
