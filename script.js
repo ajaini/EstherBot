@@ -50,7 +50,7 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say('Trying to be adventurous eh? I\'m only good at structured conversations. Ask for a \'First hint\' on how to trick me. Or maybe I can tell you about \'Bali\'? ').then(() => 'speak');
+                    return bot.say('Trying to be adventurous eh? I\'m only good at structured conversations. Ask for hints on how to trick me. Or maybe we can chit chat about \'Bali\' or in general?').then(() => 'speak');
                 }
 
                 var response = scriptRules[upperText];
