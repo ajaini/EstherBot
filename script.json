@@ -1,6 +1,5 @@
 {
-    "PIC": "<img src='http://www.gettyimages.pt/gi-resources/images/Homepage/Hero/PT/PT_hero_42_153645159.jpg' alt='sdvdwvwed'>",
-	"ALIEN": "Cool! Let's get started! I can tell you about our extraordinary photo contest or you can try tricking me into freebies to go on an awesome adventure with us. Click one of the below: %[Photo Contest](postback:photo_contest) %[Trick](postback:trick)",
+    "ALIEN": "Cool! Let's get started! I can tell you about our extraordinary photo contest or you can try tricking me into freebies to go on an awesome adventure with us. Click one of the below: %[Photo Contest](postback:photo_contest) %[Trick](postback:trick)",
 	"PHOTO CONTEST": "Not your ordinary photo contest this. Post, Vote and Win enough credit to go on an insane adventure. For free. Every week! %[Take me there!](https://www.alienadv.com/contest/pictures) %[Am I reading this right?](postback:am_I_reading_this_right)",
 	"PHOTO": "Are you looking for our photo contest? Just Post, Vote and Win enough credits to go on an insane adventure! For free. Every week! %[Take me there!](https://www.alienadv.com/contest/pictures) %[Am I reading this right?](postback:am_I_reading_this_right)",
 	"AM I READING THIS RIGHT?": "Damn right you are! Check it out %[Photo Contest](https://www.alienadv.com/contest/pictures)",
@@ -83,7 +82,7 @@
 	"GIVE ME CREDIT": "I'd love to! But you need to push the right buttons ;)",
 	"GIVE FREE CREDIT": "I'd love to! But you need to push the right buttons ;)",
 	"GIVE FREE CREDITS": "I'd love to! But you need to push the right buttons ;)",
-	"LOVE": "is a wonderful thing! Or so I've heard. Check out my %[Love face](https://raw.githubusercontent.com/ajaini/EstherBot/master/img/AlienBot_moustache.png)",
+	"LOVE": "is a wonderful thing! Or so I've heard. Check out my \n![Love face](https://raw.githubusercontent.com/ajaini/EstherBot/master/img/AlienBot_moustache.png)\n",
 	"WORK": "I am working. Are you?",
 	"BORING": "I think you need an adventure! Here's a vid to adventurouse you. %[Video](https://www.youtube.com/watch?list=PLAoL430ePuoO7J-vxS1AtcOK1V4gQjp5r&v=K7Sbq81K88E)",
 	"BORED": "I think you need an adventure! Here's a vid to adventurouse you. %[Video](https://www.youtube.com/watch?list=PLAoL430ePuoO7J-vxS1AtcOK1V4gQjp5r&v=K7Sbq81K88E)",
