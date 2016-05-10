@@ -12,7 +12,7 @@
 	"THAILAND": "Wanna explore the crazy adventures in Thailand? Check by searching for Thailand or cities there %[Search on AlienAdv.com](https://www.alienadv.com/activity/search)",
 	"INDONESIA": "The land of the Gods! Excellent. Check out our extensive coverage by typing in Indonesia or cities like Bali in the location bar. %[Search on AlienAdv.com](https://www.alienadv.com/activity/search)",
 	"HELL YES!": "Hella cool! Here are some fabulous activities to do in Bali! %[Bali Hiking](postback:bali_hiking) %[Bali Diving](postback:bali_diving) %[Bali Surfing](postback:Bali_surfing)",
-	"NOT YET": "Guess you're still deciding. No worries. Have you come up with how to trick me yet? %[First Hint](postback:first hint)",
+	"NOT YET": "Guess you're still deciding. No worries. Have you come up with how to trick me yet? %[First Hint](postback:first_hint)",
 	"TELL ME ABOUT BALI": "Bali's a beautiful place with lots of stuff to do. Are you planning on heading there? %[Hell yes!](postback:hell_yes) %[Not yet](postback:not_yet)",
 	"BALI": "Bali's a beautiful place with lots of stuff to do. Are you planning on heading there? %[Hell yes!](postback:hell_yes) %[Not yet](postback:not_yet)",
 	"HELP": "Are you lost? Here's a hint on how to trick me. Also check out some awesome adventures on %[AlienAdv.com](https://www.alienadv.com/) %[Second Hint](postback:second_hint)",
