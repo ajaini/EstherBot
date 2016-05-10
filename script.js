@@ -5,6 +5,16 @@ const Script = require('smooch-bot').Script;
 
 const scriptRules = require('./script.json');
 
+var x = [];
+x[0] = "Trying to be adventurous eh? I'm only good at structured conversations. Ask for hints on how to trick me. Or maybe we can chit chat about \'Bali\' or in general?";
+x[1] = "I am not sure I understand. Please try again. Still trying to learn about emojis and decipher full sentences.";
+x[2] = "Sorry did not understand you. Can you try again? Ask for more hints if you're not able to trick me!";
+x[3] = "Din't get you! Like I said, I'm only good at structured conversations. Ask for hints on how to trick me. Or maybe we can talk about who I am?";
+x[4] = "Say what?";
+x[5] = "Do you want to hear a joke? Ask me then!";
+
+var y = Math.floor(Math.random() * 6)
+
 function wait(ms) {
     return new Promise((resolve) => {
         setTimeout(resolve, ms);
@@ -50,7 +60,8 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say('Trying to be adventurous eh? I\'m only good at structured conversations. Ask for hints on how to trick me. Or maybe we can chit chat about \'Bali\' or in general?').then(() => 'speak');
+					return bot.say(x[y]).then(() => 'speak');
+                    //return bot.say('Trying to be adventurous eh? I\'m only good at structured conversations. Ask for hints on how to trick me. Or maybe we can chit chat about \'Bali\' or in general?').then(() => 'speak');
                 }
 
                 var response = scriptRules[upperText];
