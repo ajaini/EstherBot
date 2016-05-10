@@ -11,7 +11,7 @@ x[1] = "I am not sure I understand. Please try again. Still trying to learn abou
 x[2] = "Sorry did not understand you. Can you try again? Ask for more hints if you're not able to trick me!";
 x[3] = "Din't get you! Like I said, I'm only good at structured conversations. Ask for hints on how to trick me. Or maybe we can talk about who I am?";
 x[4] = "Say what?";
-x[5] = "Do you want to hear a joke? Ask me then!";
+x[5] = "No, doesn't work like that. Do you want to hear a joke instead? Ask me then!";
 
 function wait(ms) {
     return new Promise((resolve) => {
@@ -21,13 +21,13 @@ function wait(ms) {
 
 module.exports = new Script({
     processing: {
-        //prompt: (bot) => bot.say('Beep boop...'),
+        prompt: (bot) => bot.say('Beep boop...'),
         receive: () => 'processing'
     },
 
     start: {
         receive: (bot) => {
-            return bot.say('Beep..Boop.. This is Alien bot. Tip to converse with me - Type phrases instead of full sentences.\n\n Begin by typing ALIEN')
+            return bot.say('This is Alien bot. Tip to converse with me - Type phrases instead of full sentences.\n\n Begin by typing ALIEN')
                 .then(() => 'speak');
         }
     },
