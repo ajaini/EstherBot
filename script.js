@@ -13,8 +13,6 @@ x[3] = "Din't get you! Like I said, I'm only good at structured conversations. A
 x[4] = "Say what?";
 x[5] = "Do you want to hear a joke? Ask me then!";
 
-var y = Math.floor(Math.random() * 6)
-
 function wait(ms) {
     return new Promise((resolve) => {
         setTimeout(resolve, ms);
@@ -60,6 +58,7 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
+					var y = Math.floor(Math.random() * 6)
 					return bot.say(x[y]).then(() => 'speak');
                     //return bot.say('Trying to be adventurous eh? I\'m only good at structured conversations. Ask for hints on how to trick me. Or maybe we can chit chat about \'Bali\' or in general?').then(() => 'speak');
                 }
