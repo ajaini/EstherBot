@@ -1,6 +1,5 @@
 {
-    "TEST": "Hey " + window.alienadvEnv + " there",
-	"ALIEN": "Cool! Let's get started! I can tell you about our extraordinary photo contest or you can try tricking me into freebies to go on an awesome adventure with us. Click one of the below: %[Photo Contest](postback:photo_contest) %[Trick](postback:trick)",
+    "ALIEN": "Cool! Let's get started! I can tell you about our extraordinary photo contest or you can try tricking me into freebies to go on an awesome adventure with us. Click one of the below: %[Photo Contest](postback:photo_contest) %[Trick](postback:trick)",
 	"PHOTO CONTEST": "Not your ordinary photo contest this. Post, Vote and Win enough credit to go on an insane adventure. For free. Every week! %[Take me there!](https://www.alienadv.com/contest/pictures) %[Am I reading this right?](postback:am_I_reading_this_right)",
 	"PHOTO": "Are you looking for our photo contest? Just Post, Vote and Win enough credits to go on an insane adventure! For free. Every week! %[Take me there!](https://www.alienadv.com/contest/pictures) %[Am I reading this right?](postback:am_I_reading_this_right)",
 	"AM I READING THIS RIGHT?": "Damn right you are! Check it out %[Photo Contest](https://www.alienadv.com/contest/pictures)",
