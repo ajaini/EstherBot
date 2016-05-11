@@ -12,6 +12,7 @@ x[2] = "Sorry did not understand you. Can you try again? Ask for more hints if y
 x[3] = "Din't get you! Like I said, I'm only good at structured conversations. Ask for hints on how to trick me. Or maybe we can talk about who I am?";
 x[4] = "Say what?";
 x[5] = "No, doesn't work like that. Do you want to hear a joke instead? Ask me then!";
+x[6] = "You humans are terrible at sticking to the script! Try again.";
 
 function wait(ms) {
     return new Promise((resolve) => {
@@ -21,7 +22,7 @@ function wait(ms) {
 
 module.exports = new Script({
     processing: {
-        prompt: (bot) => bot.say('Beep boop...'),
+        //prompt: (bot) => bot.say('Beep boop...'),
         receive: () => 'processing'
     },
 
@@ -58,7 +59,7 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-					var y = Math.floor(Math.random() * 6)
+					var y = Math.floor(Math.random() * 7)
 					return bot.say(x[y]).then(() => 'speak');
                     //return bot.say('Trying to be adventurous eh? I\'m only good at structured conversations. Ask for hints on how to trick me. Or maybe we can chit chat about \'Bali\' or in general?').then(() => 'speak');
                 }
